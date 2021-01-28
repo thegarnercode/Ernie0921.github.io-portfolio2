@@ -6,10 +6,16 @@
 -->
 <html>
 	<head>
-		<title>Miniport by HTML5 UP</title>
+		<title>Ernesto Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+
+
+		
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -17,38 +23,82 @@
 			<nav id="nav">
 				<ul class="container">
 					<li><a href="#top">Top</a></li>
-					<li><a href="#work">Work</a></li>
+					<li><a href="#work">Skills</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 
 		<!-- Home -->
-			<article id="top" class="wrapper style1">
+			<article id="top" class="wrapper style1" style="background-image: url('https://directlinedev.com/media/cases/rooney/header/background_1_zM58lsj.wide.jpeg');
+			/* height: 500px; */
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			z-index: 1;">
 				<div class="container">
 					<div class="row">
-						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="images/pic.jpeg" alt="" /></span>
+						<div class="col-4 col-5-large col-12-medium " style="margin-bottom: 30px;">
+							<span class="image fit"><img src="images/self.png" alt=""  style="height: 60vh; width: auto; border: 2px solid rgb(233, 233, 245); box-shadow: 2px 5px 10px rgb(248, 183, 63);"/></span>
 						</div>
+						
 						<div class="col-8 col-7-large col-12-medium">
 							<header>
-								<h1>Hi. I'm <strong>Ernesto Carrillo</strong>.</h1>
+								<strong><h1 style="color: rgb(238, 232, 232); text-shadow: 2px 2px 2px rgb(11, 11, 12);">Hi. I'm <strong style="color: rgb(248, 183, 63); text-shadow: 2px 2px 2px rgb(3, 3, 3);">Ernesto Carrillo</strong>.</h1></strong>
 							</header>
-							<p>And this is <strong>Miniport</strong>, a free, fully responsive HTML5 site template designed by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a> &amp; released under the <a href="http://html5up.net/license">CCA license</a>.</p>
-							<a href="#work" class="button large scrolly">Learn about what I do</a>
+							<strong><p style="color: rgb(250, 245, 245); text-shadow: 2px 2px 2px rgb(51, 39, 16)">I'm a Developer based in  <strong style="color: rgb(248, 183, 63); text-shadow: 2px 2px 2px rgb(3, 3, 3);">Atlanta</strong>, I enjoy learing new technologies and creating scalable projects from start to finish.</p></strong>
+							<a href="#work" class="button large scrolly ">Learn about what I do</a>
 						</div>
 					</div>
+					
 				</div>
 			</article>
 
 		<!-- Work -->
-			<article id="work" class="wrapper style2">
-				<div class="container">
-					<header>
-						<h2>Here's all the stuff I do.</h2>
-						<p>Odio turpis amet sed consequat eget posuere consequat.</p>
+			<article id="work" class="wrapper style2" style="background-image: url('https://i.pinimg.com/originals/74/2b/7f/742b7f1be85037838973443e21b8e114.jpg'); background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			z-index: 2;
+			opacity: 100%;">
+				<div class="container" style="background-color: rgb(219, 216, 210); background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				z-index: 2;
+				opacity: 90%;
+				width: 100%;
+				border-radius: 40px;
+				"
+			 >
+					<header style="z-index: 3" >
+						<br>
+						<br>
+						<h2 style="color: rgb(248, 183, 63); text-shadow: 2px 2px 2px rgb(3, 3, 3);">Here's all the stuff I do.</h2>
+						<div class="code-icons">
+
+							<img class="icons-row1" src="https://img.icons8.com/officel/16/000000/command-line.png"/><strong style="color: rgb(3, 3, 3); ">GIT</strong>
+							<img  class="icons-row1" src="https://img.icons8.com/nolan/64/html-filetype.png"/><strong style="color: rgb(3, 3, 3); "color: rgb(3, 3, 3); >HTML</strong>
+							<img  class="icons-row1" src="https://img.icons8.com/color/48/000000/css3.png"/><strong style="color: rgb(3, 3, 3); ">CSS</strong>
+							<img  class="icons-row1" src="https://img.icons8.com/color/48/000000/sass.png"/><strong style="color: rgb(3, 3, 3); ">Sass</strong>
+							<img class="icons-row1" src="https://img.icons8.com/color/48/000000/bootstrap.png"/><strong style="color: rgb(3, 3, 3); ">Bootstrap</strong>
+							<img class="icons-row1" src="https://img.icons8.com/color/48/000000/javascript.png"/><strong style="color: rgb(3, 3, 3); ">JAVASCRIPT</strong>
+							<img class="icons-row2" src="https://img.icons8.com/ios/50/000000/jquery.png"/><strong style="color: rgb(3, 3, 3); ">JQUERY</strong>
+							<img class="icons-row2" src="https://img.icons8.com/color/48/000000/nodejs.png"/><strong style="color: rgb(3, 3, 3); ">NODE.JS</strong> 
+							<img class="icons-row2" src="https://img.icons8.com/color/48/000000/json--v1.png"/><strong style="color: rgb(3, 3, 3); ">JSON</strong> 
+							<img class="icons-row2" src="https://img.icons8.com/plasticine/100/000000/react.png"/><strong style="color: rgb(3, 3, 3); ">REACT</strong>                 
+							<img class="iicons-row2" src="https://img.icons8.com/color/48/000000/redux.png"/><strong style="color: rgb(3, 3, 3); ">REDUX</strong> 
+							<img class="icons-row2" src="https://img.icons8.com/dusk/64/000000/sql.png"/><strong style="color: rgb(3, 3, 3); ">SQL</strong> 
+							<img class="icons-row3" src="https://img.icons8.com/color/48/000000/postgreesql.png"/><strong style="color: rgb(3, 3, 3); ">POSTGRES </strong>
+							<img class="icons-row3" src="https://img.icons8.com/cute-clipart/64/000000/api.png"/><strong style="color: rgb(3, 3, 3); ">API/AJAX</strong>
+							<img class="icons-row3" src="https://img.icons8.com/dusk/64/000000/postman-api.png"/><strong style="color: rgb(3, 3, 3); ">POSTMAN</strong>                                
+							<img class="icons-row3" src="https://img.icons8.com/nolan/64/github.png"/><strong style="color: rgb(3, 3, 3); ">GITHUB</strong>
+							
+						</div>
 					</header>
-					<div class="row aln-center">
+					<!--
+					<div class="row aln-center" style="z-index: 3">
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box style1">
 								<span class="icon featured fa-comments"></span>
@@ -71,114 +121,165 @@
 							</section>
 						</div>
 					</div>
+					-->
 					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+						<strong ><p style="color: rgb(2, 2, 2); text-shadow: 2px 2px 2px rgb(238, 236, 233)">This is skills are the slills aquired so far but many more to come. I am continuously learning new Technologies! </p></strong>
 						<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
 					</footer>
+					<br>
 				</div>
 			</article>
 
 		<!-- Portfolio -->
-			<article id="portfolio" class="wrapper style3">
-				<div class="container">
+			<article id="portfolio" class="wrapper style3" style="background-image: url('https://i.pinimg.com/originals/74/2b/7f/742b7f1be85037838973443e21b8e114.jpg');
+			/* height: 500px; */
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;">
+				<div class="container" style="background-color: rgb(235, 233, 230); background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				z-index: 2;
+				opacity: 90%;
+				width: 100%;
+				border-radius: 40px;
+				">
 					<header>
-						<h2>Here’s some stuff I made recently.</h2>
-						<p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat.</p>
+						<br>
+						<br>
+						<h2 style="color: rgb(248, 183, 63); text-shadow: 2px 2px 2px rgb(3, 3, 3);">Here’s some stuff I made recently.</h2>
+						<p></p>
 					</header>
-					<div class="row">
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-								<h3><a href="#">Magna feugiat</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+					<div class="row portfolio1">
+						<div class="col-4 col-6-medium col-12-small embed-responsive " id="card1"  >
+							<article class="box style2" style="background-color: rgb(252, 252, 252); opacity: 95%; border-radius: 16px;">
+								<a href="http://ernestoportfolio.com/Date-Night/" class="image featured"><img   src="images/Date-Night.gif" alt="" style="height: 50vh; object-fit: contain;"/></a>
+								<h3><a href="http://ernestoportfolio.com/Date-Night/">Date Night</a></h3>
+								<h5><a href="https://github.com/Ernie0921/Date-Night">Github link</a></h5>
+								<p>This Website takes care of the age long question "What do you want to do?" when trying to plan an evening with your partner. We provide you with different Restuarant options and generate an Activity for you to do. We also offer a staying in option for when your just not in the mood to leave the house. Once your done selecting and planning your Date. You can email yourself the Date you Created</p>
 							</article>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-								<h3><a href="#">Veroeros primis</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+
+						<div class="col-4 col-6-medium col-12-small embed-responsive " id="card1" >
+							<article class="box style2" style="background-color: rgb(252, 252, 252); opacity: 95%; border-radius: 16px;">
+								<a href="http://ernestoportfolio.com/Top-News-Api/" class="image featured"><img src="images/top-news.gif" alt="" style="height: 50vh; object-fit: contain;"/></a>
+								<h3><a href="http://ernestoportfolio.com/Top-News-Api/">Top New</a></h3>
+								<h5><a href="https://github.com/Ernie0921/Top-News-Api">Github link</a></h5>
+								<p>Find out whats happening in the World by getting the latest News.You can search by Catagories. and Read the full Artcles</p>
 							</article>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Lorem ipsum</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+
+						<div class="col-4 col-6-medium col-12-small embed-responsive " id="card1" >
+							<article class="box style2" style="background-color: rgb(252, 252, 252); opacity: 95%; border-radius: 16px;">
+								<a href="http://ernestoportfolio.com/Live-Editor/" class="image featured"><img src="images/live-editor.gif" alt="" style="height: 50vh; object-fit: contain;"/></a>
+								<h3><a href="http://ernestoportfolio.com/Live-Editor/">Code Editor</a></h3>
+								<h5><a href="https://github.com/Ernie0921/Live-Editor">Github link</a></h5>
+								<p>Test your HTML, Javascript and CSS Skillsin this live editor. Write some code and see the result in the console! </p>
 							</article>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-								<h3><a href="#">Tempus dolore</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+
+						<div class="col-4 col-6-medium col-12-small embed-responsive " id="card1" >
+							<article class="box style2" style="background-color: rgb(252, 252, 252); opacity: 95%; border-radius: 16px;">
+								<a href="http://ernestoportfolio.com/Dad-Joke/" class="image featured"><img src="images/dad-joke.gif" alt="" style="height: 50vh; object-fit: contain;"/></a>
+								<h3><a href="http://ernestoportfolio.com/Dad-Joke/">Dad Jokes</a></h3>
+								<h5><a href="https://github.com/Ernie0921/Dad-Joke">Github link</a></h5>
+								<p>Are you running out of Dad Jokes to tell your friends? By Using this Website you'll never run out. Become the life of the party and break those awkward silences. We have endless Joke and you can Search joke by keywords.You will generate a List of joke and get rid of them by simply clicking on them.</p>
 							</article>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-								<h3><a href="#">Feugiat aliquam</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+						
+						<div class="col-4 col-6-medium col-12-small embed-responsive " id="card1" >
+							<article class="box style2" style="background-color: rgb(252, 252, 252); opacity: 95%; border-radius: 16px;">
+								<a href="http://ernestoportfolio.com/Snake-Game/" class="image featured"><img src="images/snake-game-giphy.gif" alt="" style="height: 50vh; object-fit: contain;"/></a>
+								<h3><a href="http://ernestoportfolio.com/Snake-Game/">Snake Game</a></h3>
+								<h5><a href="https://github.com/Ernie0921/Snake-Game">Github link</a></h5>
+								<p>Its time you take a break and enjoy this classic game! Control the snake's direction by using your keyboard. Eat the fruit generated in random places and what as your score grows aswell as the snake.</p>
 							</article>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-								<h3><a href="#">Sed amet ornare</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+
+						<div class="col-4 col-6-medium col-12-small embed-responsive " id="card1" >
+							<article class="box style2" style="background-color: rgb(252, 252, 252); opacity: 95%; border-radius: 16px;">
+								<a href="http://ernestoportfolio.com/GlassMorphism-landingpage/" class="image featured"><img src="images/fish-colorful.gif" alt="" style="height: 50vh; object-fit: contain;"/></a>
+								<h3><a href="http://ernestoportfolio.com/GlassMorphism-landingpage/">GlassMorphism Page</a></h3>
+								<h5><a href="https://github.com/Ernie0921/GlassMorphism-landingpage">Github link</a></h5>
+								<p>This page shows off a glass effect by using CSS. It Creates and transparent glass container that fogs up as it slides over.</p>
 							</article>
 						</div>
+
+						<div class="col-4 col-6-medium col-12-small embed-responsive " id="card1" >
+							<article class="box style2" style="background-color: rgb(252, 252, 252); opacity: 95%; border-radius: 16px;">
+								<a href=" http://ernestoportfolio.com/Animation-CSS/" class="image featured"><img src="images/animation-css.gif" alt="" style="height: 50vh; object-fit: contain;"/></a>
+								<h3><a href=" http://ernestoportfolio.com/Animation-CSS/">Animation Page</a></h3>
+								<h5><a href="https://github.com/Ernie0921/Animation-CSS">Github link</a></h5>
+								<p>This Page just shows off some cool effect and animations you can create using CSS...and yes it is IRONMAN'S Reactor is in the middle. I used ( transform:, Transition:, Animation-CSS, and @keyframes</p>
+							</article>
+						</div>
+
+						<div class="col-4 col-6-medium col-12-small embed-responsive " id="card1"  >
+							<article class="box style2" style="background-color: rgb(252, 252, 252); opacity: 95%; border-radius: 16px;">
+								<a href="http://ernestoportfolio.com/DC-Taco-Place/" class="image featured"><img src="images/taco.gif" alt="" style="height: 50vh; object-fit: contain;"/></a>
+								<h3><a href="http://ernestoportfolio.com/DC-Taco-Place/">Wako Taco</a></h3>
+								<h5><a href="https://github.com/Ernie0921/DC-Taco-Place">Github link</a></h5>
+								<p>Hungry? Order yourself some tocos and pick your topppings. This page shows a a created form build with input validation</p>
+							</article>
+						</div>
+						
+						<div class="col-4 col-6-medium col-12-small embed-responsive " id="card1" >
+							<article class="box style2" style="background-color: rgb(252, 252, 252); opacity: 95%; border-radius: 16px;">
+								<a href=" http://ernestoportfolio.com/landing-page-with-barba.js/" class="image featured"><img src="images/barba-homes.gif" alt="" style="height: 50vh; object-fit: contain;"/></a>
+								<h3><a href=" http://ernestoportfolio.com/landing-page-with-barba.js/">Landing Page Barba.js</a></h3>
+								<h5><a href="https://github.com/Ernie0921/landing-page-with-barba.js">Github link</a></h5>
+								<p>This Page shows a cool animation effect when transitioning to another page by using the Barba.js Library</p>
+							</article>
+						</div>
+						
 					</div>
 					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#contact" class="button large scrolly">Get in touch with me</a>
+						<strong><p>More Projects to come!</p></strong>
+						<a href="#contact" class="button large scrolly"> Get in touch with me</a>
 					</footer>
+					<br>
+					<br>
 				</div>
 			</article>
 
 		<!-- Contact -->
-			<article id="contact" class="wrapper style4">
+			<article id="contact" class="wrapper style4" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaBRaUfFKFOGtJl1yy3GB8rWAjriqW3w4iGQ&usqp=CAU'); background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;">
 				<div class="container medium">
 					<header>
-						<h2>Have me make stuff for you.</h2>
-						<p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>
+						<h1>Have me make stuff for you.</h1>
+						<p>click the email link below to send me a direct email </p>
+						
+						<br>
+						
+						<hr>
+						<h3><a href="mailto:ernesto.carrillo10@icloud.com?subject=Web Portfolio Contact&body=Hey! I found your Portfolio, Im interested in getting in contact with you">ernesto.carrillo10@icloud.com</a></h3>
+						
+							<br>
+							<h3><a href="https://github.com/Ernie0921">Github: Ernie0921</a></h3>
+							<br>
+							<h3><a href="https://www.linkedin.com/in/ernesto-carrillo-guerrero-364b931b6/">LinkedIn: ernesto-carrillo-guerrero-364b931b6</a></h3>
+							<br>
+							<h3>Phone: 4045289356</h3>
 					</header>
 					<div class="row">
-						<div class="col-12">
-							<form method="post" action="#">
-								<div class="row">
-									<div class="col-6 col-12-small">
-										<input type="text" name="name" id="name" placeholder="Name" />
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="text" name="email" id="email" placeholder="Email" />
-									</div>
-									<div class="col-12">
-										<input type="text" name="subject" id="subject" placeholder="Subject" />
-									</div>
-									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Message"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" /></li>
-											<li><input type="reset" value="Clear Form" class="alt" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</div>
+						
 						<div class="col-12">
 							<hr />
 							<h3>Find me on ...</h3>
+							
+
 							<ul class="social">
-								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-								<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
-								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://twitter.com/carrilloernesto" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<!--<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>--->
+								
+								<li><a href="https://www.linkedin.com/in/ernesto-carrillo-guerrero-364b931b6/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							
+								<li><a href="https://github.com/Ernie0921" class="icon brands fa-github"><span class="label">Github</span></a></li>
 								<!--
 								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
 								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
@@ -196,7 +297,7 @@
 					</div>
 					<footer>
 						<ul id="copyright">
-							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Untitled. All rights reserved.</li>
 						</ul>
 					</footer>
 				</div>
